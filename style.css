@@ -1,0 +1,22 @@
+.ounje{
+   /* filter:blur(1px);  */
+   /* filter: brightness(.3); */
+   /* filter: grayscale(.5); */
+}
+html, body{
+    overflow-x: hidden;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: green;
+    transition: 3s;
+    margin: auto;
+}
+.box:hover{
+    /* transform: rotate(360deg); */
+    /* transform: scaleX(3); */
+    transform: scale(1.5);
+    transition: 2s;
+
+}
